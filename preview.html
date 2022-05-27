@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-preview navbar-expand-lg navbar-light" style="box-shadow: none;background-color: #F1F3FF;">
+        <div class="container">
+          <div style="width: 100px;height: 34px;background-color: #0D28A6;"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fs-6 fw-normal">
+              <li class="nav-item ms-3">
+                <a class="nav-link active" aria-current="page" href="#ourservices">Our Services</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#whyus">Why Us</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#faq1">FAQ</a>
+              </li>
+              <button type="button" class="btn btn-success ms-3 rounded-1" style="background-color: #5CB85F;border: none;">Register</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div style="background-color: #F1F3FF;height: 176px;"></div>
+    <!-- Akhir Navbar -->
+
+    <!-- Input -->
+    <div class="container container-input bg-white">
+      <h4 class="mb-3">Pencarianmu</h4>
+      <div class="row-input">
+          <div class="input-type mb-3">
+              <p class="mb-1">Tipe Driver</p>
+              <select class="form-select rounded-1 border-dark" id="inputGroupSelect02" style="font-size: 0.75rem;height: 36px;">
+                <option value="1">Dengan Sopir</option>
+                <option value="2">Tanpa Sopir</option>
+              </select>
+            </div>
+
+            <div class="input-type mb-3">
+              <p class="mb-1">Tanggal</p>
+              <input class="dated rounded-1 border-dark" id="inputGroupSelect02" type="date">
+            </div>
+
+            <div class="input-type mb-3">
+              <p class="mb-1">Waktu Jemput/Ambil</p>
+              <input class="timed rounded-1 border-dark" id="inputGroupSelect02" type="time">
+            </div>
+
+            <div class="input-type mb-3">
+              <p class="mb-1">Jumlah Penumpang(Optional)</p>
+              <input style="font-size: 0.75rem;" class="jml rounded-1 border-dark" id="inputGroupSelect02" type="text" placeholder="Jumlah Penumpang">
+            </div>
+      </div>
+  </div>
+  <!-- /Input -->
+
+  <!-- INFO -->
+  <div class="col-7 info card" style="height: 618px; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 7%), 0 4px 6px -2px rgb(0 0 0 / 5%);border-radius: 0.5rem;padding: 24px 24px;">
+    <div>
+        <h5 class="mb-3">Tentang Paket</h5>
+        <div>
+            <p class="mb-2" style="font-size: 0.9rem;">Include</p>
+            <ul style="font-weight: 300;font-size: 0.9rem;line-height: 24.5px;color: #8A8A8A;">
+                <li>Apa saja yang termasuk dalam paket misal durasi max 12 jam</li>
+                <li>Sudah termasuk bensin selama 12 jam</li>
+                <li>Sudah termasuk Tiket Wisata</li>
+                <li>Sudah termasuk pajak</li>
+            </ul>
+        </div>
+        <div>
+            <p class="mb-2" style="font-size: 0.9rem;">Exclude</p>
+            <ul style="font-weight: 300;font-size: 0.9rem;line-height: 24.5px;color: #8A8A8A;">
+                <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+                <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                <li>Tidak termasuk akomodasi penginapan</li>
+            </ul>
+        </div>
+        <div class="accordion-item" style="border: none;">
+            <h2 class="accordion-header" id="headingOne">
+            <button style="padding-left: 0;" class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#basicAccordionCollapseOne" aria-expanded="false"
+                aria-controls="collapseOne">
+                <p class="mb-0" style="font-size: 0.9rem;font-weight: 700;padding-left: 0;">Refund, Reschedule, Overtime</p>
+            </button>
+            </h2>
+            <div id="basicAccordionCollapseOne" class="accordion-collapse collapse"
+            aria-labelledby="headingOne" data-mdb-parent="#basicAccordion">
+            <div class="accordion-body" style="padding-left: 0;">
+                <ul style="font-weight: 300;font-size: 0.9rem;line-height: 24.5px;color: #8A8A8A;">
+                    <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+                    <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                    <li>Tidak termasuk akomodasi penginapan</li>
+                    <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+                    <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                    <li>Tidak termasuk akomodasi penginapan</li>
+                    <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+                    <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                    <li>Tidak termasuk akomodasi penginapan</li>
+                </ul>
+            </div>
+            </div>
+        </div> 
+    </div>
+    <button type="button" class="btn cus-btn1">Lanjutkan Pembayaran</button>
+</div>
+</div>
+<!-- /INFO -->
+</body>
+</html>
