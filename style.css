@@ -655,7 +655,15 @@ button, [type=button], [type=reset], [type=submit] {
     color: #3C3C3C;
     font-family: Arial, Helvetica, sans-serif;
 }
-.form-newcar input{
+.form-newcar #nama{
+    width: 339px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+.form-newcar #harga{
     width: 339px;
     height: 36px;
     border: 1px solid #D0D0D0;
@@ -672,13 +680,21 @@ button, [type=button], [type=reset], [type=submit] {
 .form-newcar div{
     margin-top: 1rem;
 }
-#foto{
+/* #foto::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+#foto::before{
+    content: 'Placeholder';
     background-image: url(svg/fi_upload.svg);
     background-repeat: no-repeat;
     background-position: 309px 9px;
     background-color: #FFFFFF;
     cursor: pointer;
     margin-top: 0;
+} */
+.inputfile {
+	width: 339px;
+	height: 36px;
 }
 .filelabel{
     display: flex;
@@ -735,7 +751,6 @@ button, [type=button], [type=reset], [type=submit] {
     height: 90px;
 }
 .container-input{
-    max-width: 1060px;
     align-items: center;
     padding: 24px 24px;
     border-radius: 0.5rem;
@@ -765,4 +780,93 @@ button, [type=button], [type=reset], [type=submit] {
 }
 .container-input p {
     font-size: 0.75rem;
+}
+.accordion-title{
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-left: 0;
+}
+.cus-btn1{
+    background-color: #5CB85F;
+    color: white;
+    width: 285px;
+    height: 48px;
+    margin-top: 16px;
+    border-radius: 2px;
+    font-weight: 700;
+    align-items: center;
+    text-transform: capitalize;
+    float: right;
+}
+.accordion-body ul{
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 24.5px;
+    color: #8A8A8A;
+}
+.info-wrapper{
+    padding: 0;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+}
+.info-wrapper1{
+    width: 605px;
+}
+.cus-card1{
+    position: absolute;
+    float: right;
+}
+.info-list-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 49px;
+}
+#icons{
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: #8A8A8A;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cus-btn2{
+    background-color: #5CB85F;
+    color: white;
+    width: 100%;
+    height: 36px;
+    border-radius: 2px;
+    font-weight: 700;
+    align-items: center;
+    text-transform: capitalize;
+}
+.foot{
+    margin-top: 150px;
+    display: flex;
+}
+.alamat{
+    width: 268px;
+}
+.alamat p{
+    font-weight: 300;
+}
+.navfoot{
+    margin-left: 86px;
+}
+.navfoot a p{
+    font-weight: 400;
+}
+.icon-padding{
+    margin-left: 1rem;
+}
+.sosmed{
+    margin-left: 86px;
+}
+.copyright{
+    margin-left: 86px;
 }
